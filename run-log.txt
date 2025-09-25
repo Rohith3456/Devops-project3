@@ -1,0 +1,10 @@
+1. Ran: terraform init (log in tf-init.log)
+2. Ran: terraform plan (log in tf-plan.log)
+3. Ran: terraform apply (log in tf-apply.log)
+4. Verified container is running:
+   $ docker ps
+   Container <id> UP
+5. Tested app:
+   $ curl http://localhost:8080
+   Output: "Hello from container!"
+6. Ran: terraform destroy (log in tf-destroy.log)
